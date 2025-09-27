@@ -5,7 +5,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import { NewsCard } from '@/components/NewsCard';
 import { LoadingSpinner } from '@/components/LoadingSpinner';
 import { getSavedArticles } from '@/lib/supabase';
-import { Bookmark, AlertCircle } from 'lucide-react';
+import { Bookmark, CircleAlert as AlertCircle } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 import Link from 'next/link';
 

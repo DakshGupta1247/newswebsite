@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { NewsCard } from '@/components/NewsCard';
 import { LoadingSpinner } from '@/components/LoadingSpinner';
 import { newsAPI } from '@/lib/newsApi';
-import { TrendingUp, AlertCircle } from 'lucide-react';
+import { TrendingUp, CircleAlert as AlertCircle } from 'lucide-react';
 import { Button } from '@/components/ui/Button';
 
 export default function TrendingPage() {

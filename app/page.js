@@ -7,7 +7,7 @@ import { TrendingSection } from '@/components/TrendingSection';
 import { LoadingSpinner } from '@/components/LoadingSpinner';
 import { InfiniteScroll } from '@/components/InfiniteScroll';
 import { Button } from '@/components/ui/Button';
-import { RefreshCw, AlertCircle } from 'lucide-react';
+import { RefreshCw, CircleAlert as AlertCircle } from 'lucide-react';
 
 export default function Home() {
   const { 
